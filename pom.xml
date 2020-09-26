@@ -23,11 +23,6 @@
         <java.version>11</java.version>
     </properties>
 
-    <dependencies>
-
-
-
-    </dependencies>
 
     <build>
         <plugins>
@@ -35,7 +30,20 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
+
+
+    <scm>
+        <developerConnection>scm:svn:git:https://github.com/Er-Iftekhar/spring-framework-pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
