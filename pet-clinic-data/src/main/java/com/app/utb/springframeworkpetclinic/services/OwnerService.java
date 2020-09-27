@@ -1,4 +1,4 @@
-package com.app.utb.springframeworkpetclinic.model.services;
+package com.app.utb.springframeworkpetclinic.services;
 
 import com.app.utb.springframeworkpetclinic.model.Owner;
 import java.util.Set;
